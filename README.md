@@ -1,10 +1,5 @@
 # Multimodal RAG - Using Late Fusion Architecture
 
-**Submitted by:**
-* Het Sanjaykumar Suthar (225240)
-* Prince Goti (225258)
-* Ishan Chovatiya (225682)
-
 ## Project Overview
 
 This project implements a local Multimodal Retrieval-Augmented Generation (MRAG) system designed to process heterogeneous data sources including academic PDFs, images, and source code. Unlike standard RAG systems that flatten all data into text, this system utilizes a Late-Fusion Architecture. This approach processes each modality (visual, textual, and code) through specialized encoding streams before fusing the retrieved information for the Large Language Model.
@@ -118,3 +113,4 @@ To verify the system is working, open a new PowerShell window, activate the envi
 .\venv\Scripts\activate
 python validate_system.py
 ```
+
